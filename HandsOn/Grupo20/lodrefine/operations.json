@@ -1,0 +1,2958 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Street address using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Street address",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "McDonalds"
+        ],
+        "to": "McDonald´s"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "McDonald´s"
+        ],
+        "to": "McDonald's"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "In a Rush"
+        ],
+        "to": "In A Rush"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Subway "
+        ],
+        "to": "Subway"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Starbucks "
+        ],
+        "to": "Starbucks"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Trading name using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Starbucks",
+                "l": "Starbucks"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Trading name",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Trading name"
+        }
+      ]
+    },
+    "columnName": "Trading name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Trading name using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hungry Jack's",
+          "Hungry Jacks",
+          "hungry Jacks"
+        ],
+        "to": "Hungry Jack's"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "InterContinental Melbourne - The Rialto",
+          "Intercontinental Melbourne - The Rialto"
+        ],
+        "to": "InterContinental Melbourne - The Rialto"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vialetto Ristoronte",
+          "Ristoronte Vialetto"
+        ],
+        "to": "Vialetto Ristoronte"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Schwobs Swiss Gourmet Sandwich Bar",
+          "Schwob's Swiss Gourmet Sandwich Bar"
+        ],
+        "to": "Schwobs Swiss Gourmet Sandwich Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acmi Lounge",
+          "ACMI Lounge"
+        ],
+        "to": "Acmi Lounge"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Great Space Cafe",
+          "Cafe Great Space"
+        ],
+        "to": "Great Space Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Randos Snack Bar",
+          "Rando's Snack Bar"
+        ],
+        "to": "Randos Snack Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tia To - Vietnamese Restaurant",
+          "Tia To Vietnamese Restaurant"
+        ],
+        "to": "Tia To - Vietnamese Restaurant"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Stax Cafe",
+          "Cafe Stax"
+        ],
+        "to": "Stax Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lavita Cafe On William",
+          "Cafe Lavita On William"
+        ],
+        "to": "Lavita Cafe On William"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Shiraaz at CBD Fine Indian Cuisine",
+          "SHiraaz at CBD Fine Indian Cuisine"
+        ],
+        "to": "Shiraaz at CBD Fine Indian Cuisine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "In a Rush Espresso",
+          "In A Rush Espresso"
+        ],
+        "to": "In a Rush Espresso"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nando's",
+          "Nandos"
+        ],
+        "to": "Nando's"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rice Bar Not Only Rice",
+          "Rice Bar, Not Only Rice"
+        ],
+        "to": "Rice Bar Not Only Rice"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "B &B' Guette Cafe",
+          "B & B' Guette Cafe"
+        ],
+        "to": "B &B' Guette Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Kimchi Tray",
+          "KImchi Tray"
+        ],
+        "to": "Kimchi Tray"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe On Flinders",
+          "Cafe on Flinders"
+        ],
+        "to": "Cafe On Flinders"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oli Levi",
+          "Oli & Levi"
+        ],
+        "to": "Oli Levi"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe Giraffe",
+          "Giraffe Cafe"
+        ],
+        "to": "Cafe Giraffe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "La Cantina",
+          "la Cantina"
+        ],
+        "to": "La Cantina"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gloria Jean's Coffees",
+          "Gloria Jeans Coffees"
+        ],
+        "to": "Gloria Jean's Coffees"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AKI Sushi",
+          "Aki Sushi"
+        ],
+        "to": "AKI Sushi"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Laurent Boulangerie Patisserie",
+          "Laurent - Boulangerie Patisserie"
+        ],
+        "to": "Laurent Boulangerie Patisserie"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Renzo's Bar / Cafe Italiano",
+          "Renzo's Bar Cafe Italiano"
+        ],
+        "to": "Renzo's Bar / Cafe Italiano"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Acca Cafe",
+          "ACCA Cafe"
+        ],
+        "to": "Acca Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "D & D Kebabs & Spuds",
+          "D & D Kebabs - Spuds"
+        ],
+        "to": "D & D Kebabs & Spuds"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Food Inc.",
+          "Food Inc"
+        ],
+        "to": "Food Inc."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Queen's Kebabs",
+          "Queens Kebabs"
+        ],
+        "to": "Queen's Kebabs"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Grounded House A Coffee Place",
+          "Grounded House a Coffee Place"
+        ],
+        "to": "Grounded House A Coffee Place"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hudson's Coffee",
+          "Hudsons Coffee"
+        ],
+        "to": "Hudson's Coffee"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nando's - Bourke Place",
+          "Nando's Bourke Place"
+        ],
+        "to": "Nando's - Bourke Place"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Coffee HQ",
+          "Coffee Hq"
+        ],
+        "to": "Coffee HQ"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "QB's Cafe",
+          "QB'S Cafe"
+        ],
+        "to": "QB's Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "T'Roy Browns",
+          "T-Roy Browns"
+        ],
+        "to": "T'Roy Browns"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Roll'D",
+          "Roll'd"
+        ],
+        "to": "Roll'D"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ATLANTIS HOTEL",
+          "Atlantis Hotel"
+        ],
+        "to": "ATLANTIS HOTEL"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Don Don Japanese Takeaway",
+          "Don Don Japanese Take-away"
+        ],
+        "to": "Don Don Japanese Takeaway"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ec Pot Cafe Bar",
+          "ec Pot Cafe Bar"
+        ],
+        "to": "Ec Pot Cafe Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mantra On Jolimont",
+          "Mantra on Jolimont"
+        ],
+        "to": "Mantra On Jolimont"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Kura Sake Bar",
+          "Sake Bar Kura"
+        ],
+        "to": "Kura Sake Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Blvd Bar",
+          "BLVD Bar"
+        ],
+        "to": "Blvd Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Koury's Coffee Lounge",
+          "Kourys Coffee Lounge"
+        ],
+        "to": "Koury's Coffee Lounge"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Miyako (Japanese Restaurant)",
+          "Miyako (japanese Restaurant)"
+        ],
+        "to": "Miyako (Japanese Restaurant)"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Schwobs Swiss",
+          "Schwob's Swiss"
+        ],
+        "to": "Schwobs Swiss"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tutto bene",
+          "Tutto Bene"
+        ],
+        "to": "Tutto bene"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Yu-U Japanese Restaurant",
+          "Yu.u Japanese Restaurant"
+        ],
+        "to": "Yu-U Japanese Restaurant"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vons Restaurant & Bar",
+          "Von's Restaurant & Bar"
+        ],
+        "to": "Vons Restaurant & Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mr Birds Myo",
+          "Mr Bird's MYO"
+        ],
+        "to": "Mr Birds Myo"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Brioche By Philip",
+          "Brioche by Philip"
+        ],
+        "to": "Brioche By Philip"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hotel Lincoln",
+          "Lincoln Hotel"
+        ],
+        "to": "Hotel Lincoln"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "In A Rush",
+          "In a Rush"
+        ],
+        "to": "In A Rush"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jwow Bar",
+          "JWow Bar"
+        ],
+        "to": "Jwow Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jeremy's Hardware Lane Cafe & Bar",
+          "Hardware Lane Cafe & Bar / Jeremy's Cafe"
+        ],
+        "to": "Jeremy's Hardware Lane Cafe & Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "elounge",
+          "eLounge"
+        ],
+        "to": "elounge"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ES Teler 77",
+          "Es Teler 77"
+        ],
+        "to": "ES Teler 77"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe Excello",
+          "Excello Cafe"
+        ],
+        "to": "Cafe Excello"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Romano's Coffee",
+          "Romanos Coffee"
+        ],
+        "to": "Romano's Coffee"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gloria Jean's Coffee",
+          "Gloria Jeans Coffee"
+        ],
+        "to": "Gloria Jean's Coffee"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Foo-Go's",
+          "FooGos"
+        ],
+        "to": "Foo-Go's"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ES-X Cafe",
+          "ESX Cafe"
+        ],
+        "to": "ES-X Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe On Flinders /Global Chat",
+          "Cafe on Flinders / Global Chat"
+        ],
+        "to": "Cafe On Flinders /Global Chat"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe On Albert",
+          "Cafe on Albert"
+        ],
+        "to": "Cafe On Albert"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Manchuria",
+          "manchuria"
+        ],
+        "to": "Manchuria"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Argus Cafe",
+          "Cafe Argus"
+        ],
+        "to": "Argus Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe All Angalo",
+          "Cafe All' Angalo"
+        ],
+        "to": "Cafe All Angalo"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe 5ive 70",
+          "5ive 70 Cafe"
+        ],
+        "to": "Cafe 5ive 70"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mayas Kitchen",
+          "Maya's Kitchen"
+        ],
+        "to": "Mayas Kitchen"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Fonda Flinders LAne",
+          "Fonda Flinders Lane"
+        ],
+        "to": "Fonda Flinders LAne"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "vacant",
+          "Vacant"
+        ],
+        "to": "vacant"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Graduate Union of the University of Melbourne",
+          "The Graduate Union of the The University of Melbourne"
+        ],
+        "to": "The Graduate Union of the University of Melbourne"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Byblos Bar & Restaurant",
+          "Byblo's Bar & Restaurant"
+        ],
+        "to": "Byblos Bar & Restaurant"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Shenis Curries",
+          "Sheni's Curries"
+        ],
+        "to": "Shenis Curries"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe Cavallino",
+          "Cavallino Cafe"
+        ],
+        "to": "Cafe Cavallino"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Punch Lane Wine Bar/restaurant",
+          "Punch Lane Wine Bar/Restaurant"
+        ],
+        "to": "Punch Lane Wine Bar/restaurant"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oscar's Table",
+          "Oscars Table"
+        ],
+        "to": "Oscar's Table"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe",
+          "Cafe Cafe"
+        ],
+        "to": "Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "@Rice Cafe & Bar",
+          "Rice Cafe & Bar"
+        ],
+        "to": "@Rice Cafe & Bar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Platinum Cafe",
+          "Cafe Platinum"
+        ],
+        "to": "Platinum Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lucky Chans",
+          "Lucky Chan's"
+        ],
+        "to": "Lucky Chans"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe Saporo",
+          "Saporo Cafe"
+        ],
+        "to": "Cafe Saporo"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Oriental Tea House",
+          "Oriental tea House"
+        ],
+        "to": "Oriental Tea House"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Iseya Icecream Bar and Cafe",
+          "Iseya Icecream Bar And Cafe"
+        ],
+        "to": "Iseya Icecream Bar and Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cafe Caldera",
+          "Caldera Cafe"
+        ],
+        "to": "Cafe Caldera"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Riva Bar Cafe",
+          "Riva Cafe Bar"
+        ],
+        "to": "Riva Bar Cafe"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The Lab - Nitrogen Gelato",
+          "The Lab Nitrogen Gelato"
+        ],
+        "to": "The Lab - Nitrogen Gelato"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "The PRecinct",
+          "The Precinct"
+        ],
+        "to": "The PRecinct"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ï»¿Census year",
+    "columnName": "ï»¿Census year"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Block ID",
+    "columnName": "Block ID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Property ID",
+    "columnName": "Property ID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Base property ID",
+    "columnName": "Base property ID"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Trading name to position 0",
+    "columnName": "Trading name",
+    "index": 0
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Billi Green's"
+        ],
+        "to": "Billy Green's"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bismi Goldan Fork"
+        ],
+        "to": "Bismi Gold An Fork"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Trading name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Trading name",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bisq Cafeteria"
+        ],
+        "to": "Bisq Cafe"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Industry (ANZSIC4) code",
+    "columnName": "Industry (ANZSIC4) code"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Seating type",
+    "columnName": "Seating type"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type"
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.groupExtraOrd.semanticweb.org/adress",
+              "curie": "http://www.groupExtraOrd.semanticweb.org/adress",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type"
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type"
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Trading name to Name",
+    "oldColumnName": "Trading name",
+    "newColumnName": "Name"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Industry (ANZSIC4) description to Local Type",
+    "oldColumnName": "Industry (ANZSIC4) description",
+    "newColumnName": "Local Type"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "name",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "numberOfSeats",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Number of seats"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordinateX",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "x coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordintateY",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "y coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "streetAddress",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Street address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "name",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "numberOfSeats",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Number of seats"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordinateX",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "x coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordintateY",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "y coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "streetAddress",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Street address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "name",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "numberOfSeats",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Number of seats"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordinateX",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "x coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordintateY",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "y coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "streetAddress",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Street address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#Class",
+              "curie": "owl:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#Class",
+              "curie": "owl:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "name",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "numberOfSeats",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Number of seats"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordinateX",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "x coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordintateY",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "y coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "streetAddress",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Street address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.groupExtraOrd.semanticweb.org/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "class",
+          "uri": "http://www.groupExtraOrd.semanticweb.org/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class#Local",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#Class",
+              "curie": "owl:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "class#Address",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#Class",
+              "curie": "owl:Class"
+            }
+          ],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "property#adress",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "localType",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Local Type"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "name",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "numberOfSeats",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Local",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Local"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Number of seats"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordinateX",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+              "curie": "rdf:Property"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "x coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "coordintateY",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "y coordinate"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "resource",
+          "value": "streetAddress",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+              "curie": "rdfs:domain",
+              "target": {
+                "nodeType": "literal",
+                "value": "Address",
+                "valueType": "http://www.groupExtraOrd.semanticweb.org/class#Address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+              "curie": "rdfs:range",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Street address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Street address to Address",
+    "oldColumnName": "Street address",
+    "newColumnName": "Address"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "Trading name",
+          "type": "text",
+          "columnName": "Trading name"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "Local Type: best candidate's score",
+          "from": 0.561,
+          "to": 0.614,
+          "type": "range",
+          "columnName": "Local Type"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "0 Evan Walker Bridge"
+        ],
+        "to": "Evan Walker Bridge"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "Trading name",
+          "type": "text",
+          "columnName": "Trading name"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "Local Type: best candidate's score",
+          "from": 0.561,
+          "to": 0.614,
+          "type": "range",
+          "columnName": "Local Type"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1-9 Powlett Street"
+        ],
+        "to": "Powlett Street"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "Trading name",
+          "type": "text",
+          "columnName": "Trading name"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "Local Type: best candidate's score",
+          "from": 0.561,
+          "to": 0.614,
+          "type": "range",
+          "columnName": "Local Type"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "117 Grattan Street"
+        ],
+        "to": "Grattan Street"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "Trading name",
+          "type": "text",
+          "columnName": "Trading name"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "Local Type: best candidate's score",
+          "from": 0.561,
+          "to": 0.614,
+          "type": "range",
+          "columnName": "Local Type"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "234-236 Lygon Street"
+        ],
+        "to": "Lygon Street"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "Trading name",
+          "type": "text",
+          "columnName": "Trading name"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": false,
+          "selectError": true,
+          "name": "Local Type: best candidate's score",
+          "from": 0.561,
+          "to": 0.614,
+          "type": "range",
+          "columnName": "Local Type"
+        }
+      ]
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "152-154 Lygon Street"
+        ],
+        "to": "Lygon Street"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "183-265 La Trobe Street"
+        ],
+        "to": "La Trobe Street"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Address",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Address",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "221 Little Lonsdale Street"
+        ],
+        "to": "Little Lonsdale Street"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Address using expression grel:replace(replace(value,\"-\",\"\"),/\\d/,\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Address",
+    "expression": "grel:replace(replace(value,\"-\",\"\"),/\\d/,\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
