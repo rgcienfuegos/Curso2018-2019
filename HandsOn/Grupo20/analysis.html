@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <style type="text/css">
+		h3 {color:yellow}
+		h4 {color:brown}
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+
+		tr:nth-child(even) {
+		background-color: #dddddd;
+		}
+    </style>
+  </head>
+
+
+  <body style="background-color:white">
+
+    <h1 style="text-align:center;background-color:blue;foreground-color.yellow">
+		Analysis for the generation of Linked Data </h1>
+    <!-- <hr/>  es una linea de separacion -->
+    <hr />
+    <!-- <br></br> es un salto de linea-->
+    <br></br>
+    <!-- <q></q> implica entre comillas -->
+    <h2>  Analyse Data Set</h2>
+    <p> Analyse both the data (quantities, value ranges,
+	etc.) as well as the schema of the data.</p>
+
+	<table>
+	  <tr>
+		<th>Column</th>
+		<th>Type</th>
+	  </tr>
+	  <tr>
+		<td>Census year</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Block ID</td>
+		<td>Text</td>
+	  </tr>
+	  <tr>
+		<td>Propert ID</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Base property ID</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Street address</td>
+		<td>Text</td>
+	  </tr>
+	  <tr>
+		<td>CLUE small area</td>
+		<td>Text</td>
+	  </tr>
+	  <tr>
+		<td>Trading name</td>
+		<td>Text</td>
+	  </tr>
+	  <tr>
+		<td>Industry Code</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Industry description</td>
+		<td>Text</td>
+	  </tr><tr>
+		<td>Seating type</td>
+		<td>Text</td>
+	  </tr>
+	  <tr>
+		<td>Number of seats</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>X coordinate</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Y coordinate</td>
+		<td>Number</td>
+	  </tr>
+	  <tr>
+		<td>Location</td>
+		<td>Location</td>
+	  </tr>
+	</table>
+    
+	<h2> Analyse Licensing of the Data Source </h2>
+	<p style="font-weight:bold">Who is the publisher and the rightsholder?</p>
+	<p>City of Melbourne Open Data Team</p>
+	<p style="font-weight:bold">What is the licence?</p>
+	<p>Creative Commons Attribution 4.0 International</p>
+	<p style="font-weight:bold">Which will be the license to be used for the generated dataset?</p>
+    <p>The license that will be used for the generated dataset will be the same of the original dataset.</p>
+	<p>So we will use Creative Commons Attribution 4.0 International</p>
+    
+	<h2> Define Resource Naming Strategy  </h2>
+	<p> The domain of the generated Dataset is : <a href=http://www.groupExtraOrd.semanticweb.org>http://www.groupExtraOrd.semanticweb.org</a></p>
+    <p>The differents paths of our ontologies are:</p>
+	
+	<p>Class</p>
+	<ul>
+		<li>http://www.groupExtraOrd.semanticweb.org/class#</li>
+		<li>http://www.groupExtraOrd.semanticweb.org/class#{name_class}</li>
+	</ul>
+	<p>Properties</p>
+	<ul>
+		<li>http://www.groupExtraOrd.semanticweb.org/property#</li>
+		<li>http://www.groupExtraOrd.semanticweb.org/property#{name_property}</li>
+	</ul>	
+	<p>Resources of Dataset</p>
+	<ul>
+		<li>http://www.groupExtraOrd.semanticweb.org/locals</li>
+		<li>http://www.groupExtraOrd.semanticweb.org/locals/{local_id} </li>
+		<li>http://www.groupExtraOrd.semanticweb.org/locals/{local_id}/location </li>
+		<li>http://www.groupExtraOrd.semanticweb.org/locals/{local_id}/localName </li>
+		<li>http://www.groupExtraOrd.semanticweb.org/locals/{local_id}/numberOfSeat </li>
+	</ul>																				
+  </body>
+</html>
